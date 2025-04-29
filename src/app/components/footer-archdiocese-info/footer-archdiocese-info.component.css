@@ -1,0 +1,20 @@
+.FooterArchdioceseInfoContainer {
+  display: flex;
+  gap: 0.4rem;
+  font-size: 1.5rem;
+  align-items: center;
+}
+
+.FooterArchdioceseInfoChurchIcon {
+  font-size: 1.5rem;
+  text-align: center;
+  color: #ffffff;
+  margin-right: 0.7rem;
+}
+
+.FooterArchdioceseInfoSlogan {
+  display: block;
+  font-size: 1.2rem;
+  margin: 2rem 0;
+  font-weight: 300;
+}

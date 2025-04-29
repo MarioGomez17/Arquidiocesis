@@ -1,0 +1,13 @@
+.FooterServicestList {
+  list-style: none;
+}
+
+.FooterServicesListItem {
+  margin: 1.5rem 0;
+}
+
+.FooterServicesLink {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 300;
+}

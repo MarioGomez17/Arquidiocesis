@@ -1,0 +1,13 @@
+.FooterQuickLinksList {
+  list-style: none;
+}
+
+.FooterQuickLinksListItem {
+  margin: 1.5rem 0;
+}
+
+.FooterQuickLinksLink {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 300;
+}

@@ -1,0 +1,75 @@
+.FooterNewsletterLegend {
+  display: block;
+  font-size: 1.2rem;
+  margin: 2rem 0;
+  font-weight: 300;
+}
+
+.FooterNewsletterSubscribeInputContainer {
+  position: relative;
+}
+
+.FooterNewsletterSubscribeInput {
+  padding: 0.6rem;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 1rem;
+  border-radius: 0.6rem;
+  border: none;
+  text-indent: 0.4rem;
+  background-color: transparent;
+  color: #ffffff;
+  transition: 0.3s linear;
+  outline: 2px solid transparent;
+  outline-offset: 3px;
+}
+
+.FooterNewsletterSubscribeInputLine {
+  width: 100%;
+  height: 1px;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: 0;
+  opacity: 1;
+  transition: 0.3s linear;
+  transition-delay: 0.3s;
+}
+
+.FooterNewsletterSubscribeButton {
+  width: 100%;
+  font-size: 1rem;
+  padding: 0.6rem;
+  margin-top: 1.5rem;
+  border-radius: 0.6rem;
+  border: none;
+  cursor: pointer;
+  color: var(--FirstColor);
+}
+
+.FooterNewsletterSubscribeInput:focus,
+.FooterNewsletterSubscribeInput:focus-visible,
+.FooterNewsletterSubscribeInput:active {
+  border: none;
+  outline-color: #a1a1aa;
+}
+
+.FooterNewsletterSubscribeInput::placeholder {
+  color: #ffffff;
+}
+
+.FooterNewsletterSubscribeInput:focus ~ .FooterNewsletterSubscribeInputLine,
+.FooterNewsletterSubscribeInput:focus-visible
+  ~ .FooterNewsletterSubscribeInputLine,
+.FooterNewsletterSubscribeInput:active ~ .FooterNewsletterSubscribeInputLine {
+  opacity: 0;
+  transition: none;
+}
+
+.FooterNewsletterSubscribeButton:hover {
+  background-color: rgb(255 255 255 / 0.8);
+}
+
+.SubscribeButton:focus-visible {
+  border: none;
+  outline: none;
+}
