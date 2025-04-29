@@ -1,0 +1,27 @@
+.TopBarComponent {
+  background-color: var(--FirstColor);
+  color: #ffffff;
+  padding: 0.8rem 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.TopBarContactInfoContent {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.TopBarContactInfo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.TopBarIcon {
+  font-size: 1.5rem;
+  text-align: center;
+  color: #ffffff;
+  margin-right: 0.7rem;
+}
