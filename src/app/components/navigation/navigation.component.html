@@ -1,0 +1,54 @@
+<div class="NavigationComponent">
+  <app-search />
+  <nav class="NavigationBar">
+    <a class="NavigationLink" [routerLink]="['/']">
+      Inicio
+    </a>
+    <div class="GroupLinks">
+      <a class="NavigationLink" [routerLink]="['/']">
+        Nosotros
+      </a>
+      <i class="fa-solid fa-chevron-down NavigationLinkIcon"></i>
+      <div class="LinksGroupLinks">
+        <a class="NavigationLink" [routerLink]="['/']">
+          Historia
+        </a>
+        <a class="NavigationLink" [routerLink]="['/']">
+          Escudo
+        </a>
+        <a class="NavigationLink" [routerLink]="['/']">
+          Arzobispos
+        </a>
+      </div>
+    </div>
+    <div class="GroupLinks">
+      <a class="NavigationLink" [routerLink]="['/']">
+        Sacramentos
+      </a>
+      <i class="fa-solid fa-chevron-down NavigationLinkIcon"></i>
+      <div class="LinksGroupLinks">
+        <a class="NavigationLink" [routerLink]="['/']">
+          Matrimonio
+        </a>
+        <a class="NavigationLink" [routerLink]="['/']">
+          Confirmación
+        </a>
+        <a class="NavigationLink" [routerLink]="['/']">
+          Nulidad Matrimonial
+        </a>
+      </div>
+    </div>
+    <a class="NavigationLink" [routerLink]="['/']">
+      Parroquias
+    </a>
+    <a class="NavigationLink" [routerLink]="['/']">
+      Noticias
+    </a>
+    <a class="NavigationLink" [routerLink]="['/']">
+      Radio
+    </a>
+    <a class="NavigationLink" [routerLink]="['/']">
+      Contacto
+    </a>
+  </nav>
+</div>

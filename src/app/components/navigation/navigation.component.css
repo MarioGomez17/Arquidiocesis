@@ -1,0 +1,60 @@
+.NavigationComponent {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.NavigationBar {
+  display: flex;
+  gap: 0.3rem;
+}
+
+.NavigationLink {
+  padding: 0.5rem 1.5rem;
+  font-weight: 500;
+  color: #000000;
+  text-decoration: none;
+  transition: 0.3s linear;
+  white-space: nowrap;
+}
+
+.GroupLinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.NavigationLinkIcon {
+  font-size: 0.8rem;
+  text-align: center;
+  color: inherit;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 2%;
+}
+
+.LinksGroupLinks {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  padding-top: 1rem;
+  background-color: #f3f3f3;
+  border-bottom-left-radius: 0.6rem;
+  border-bottom-right-radius: 0.6rem;
+}
+
+.NavigationLink:hover,
+.NavigationLink:hover ~ .NavigationLinkIcon {
+  color: var(--FirstColor);
+}
+
+.GroupLinks:hover .LinksGroupLinks,
+.LinksGroupLinks:hover {
+  display: flex;
+}
