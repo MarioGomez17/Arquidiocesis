@@ -10,4 +10,5 @@ import { CommonModule } from '@angular/common';
 export class SocialNetworkLinkComponent {
   @Input() SocialNetworkIcon: string = '';
   @Input() SocialNetworkLink: string = '';
+  @Input() SocialNetworkAriaLabel: string = '';
 }
