@@ -1,3 +1,4 @@
-<a class="SocialNetworkLinkComponent" :href="SocialNetworkLink" :aria-label="SocialNetworkAriaLabel">
+<a class="SocialNetworkLinkComponent" [href]="SocialNetworkLink" :aria-label="SocialNetworkAriaLabel"
+    [ngClass]="SocialNetworkColor" target="_blank">
     <i [ngClass]="SocialNetworkIcon" class="SocialNetworkIcon"></i>
 </a>

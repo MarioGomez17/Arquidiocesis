@@ -5,7 +5,7 @@
   padding: 0.6rem;
   border-radius: 0.6rem;
   text-decoration: none;
-  color: #ffffff;
+  color: var(--ColorLink);
 }
 
 .SocialNetworkIcon {
@@ -15,6 +15,16 @@
 }
 
 .SocialNetworkLinkComponent:hover {
-  background-color: rgb(255 255 255 / 0.1);
+  background-color: var(--ColorBackground);
   scale: 1.1;
+}
+
+.BlackSocialNetworkLink {
+  --ColorLink: #000000;
+  --ColorBackground: rgb(0 0 0 / 0.1);
+}
+
+.WhiteSocialNetworkLink {
+  --ColorLink: #ffffff;
+  --ColorBackground: rgb(255 255 255 / 0.1);
 }
