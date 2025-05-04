@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { SocialNetworkLinkComponent } from '../social-network-link/social-network-link.component';
 
 @Component({
@@ -7,4 +7,6 @@ import { SocialNetworkLinkComponent } from '../social-network-link/social-networ
   templateUrl: './social-networks.component.html',
   styleUrl: './social-networks.component.css',
 })
-export class SocialNetworksComponent {}
+export class SocialNetworksComponent {
+  @Input() SocialNetworkColor: string = '';
+}
