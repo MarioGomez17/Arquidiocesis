@@ -1,0 +1,97 @@
+:host {
+  width: 50%;
+}
+
+.ContactFormComponent {
+  height: 100%;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 3rem;
+  box-sizing: border-box;
+  border-radius: 0.6rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.ContactFormTitle {
+  font-size: 2rem;
+  color: var(--FirstColor);
+}
+
+.ContactForm {
+  height: 100%;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.ContactFormInputGroup {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.ContactFormInputLabelContainer {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  gap: 0.6rem;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.ContactFormInput {
+  font-size: 1.2rem;
+  padding: 0.7rem 1rem;
+  box-sizing: border-box;
+  border-radius: 0.6rem;
+  border: 2px solid #000000;
+  transition: 0.1s linear;
+}
+
+.ContactFormLabel {
+  color: #000000;
+  font-size: 1.2rem;
+  transition: 0.1s linear;
+}
+
+.ContactFormTextAreaContainer {
+  flex: 1 1 auto;
+}
+
+#DescriptionContactForm {
+  flex: 1 1 auto;
+  resize: none;
+}
+
+.ContactFormButton {
+  width: 100%;
+  padding: 0.5rem 2rem;
+  border: none;
+  background-color: var(--FirstColor);
+  color: white;
+  cursor: pointer;
+  border-radius: 0.6rem;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  transition: 0.3s linear;
+}
+
+.ContactFormInput:focus-visible {
+  outline: none;
+  border-color: var(--FirstColor);
+}
+
+.ContactFormInput:focus-visible ~ .ContactFormLabel {
+  color: var(--FirstColor);
+  font-weight: 700;
+}
+
+.ContactFormButton:hover {
+  background-color: rgba(30, 58, 138, 0.9);
+}
+
+.ContactFormButton:focus-visible {
+  outline: none;
+}
