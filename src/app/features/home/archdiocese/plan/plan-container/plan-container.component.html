@@ -1,0 +1,29 @@
+<section class="PlanContainerComponent">
+    <div class="PlanContainerInfo">
+        <h3 class="PlanContainerTitle">
+            Plan de Evangelización 2024-2030
+        </h3>
+        <p class="PlanContainerDescription">
+            Detalles sobre la estrategia pastoral para este período, enfocada en fortalecer la fe y el servicio a la
+            comunidad a través de diversas iniciativas y programas.
+        </p>
+        <app-plan-card [PlanCard_Title]="`Fortalecimiento de la fe`"
+            [PlanCard_Description]="`Programas de formación espiritual para todas las edades.`"
+            [PlanCard_Icon]="`fa-regular fa-heart`" [PlanCard_Color]="`BlueCard`" />
+        <app-plan-card [PlanCard_Title]="`Comunidades vivas`"
+            [PlanCard_Description]="`Fortalecimiento de grupos parroquiales y movimientos.`"
+            [PlanCard_Icon]="`fa-solid fa-users`" [PlanCard_Color]="`YellowCard`" />
+        <app-plan-card [PlanCard_Title]="`Renovación parroquial`"
+            [PlanCard_Description]="`Modernización de infraestructuras y servicios pastorales.`"
+            [PlanCard_Icon]="`fa-solid fa-church`" [PlanCard_Color]="`GreenCard`" />
+        <button type="button" class="PlanContainerButton">
+            Descargar plan completo
+        </button>
+    </div>
+    <div class="PlanContainerImage">
+        <figure class="PlanContainerFigure">
+            <img src="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png"
+                alt="Logo Oficina" class="PlanImage">
+        </figure>
+    </div>
+</section>

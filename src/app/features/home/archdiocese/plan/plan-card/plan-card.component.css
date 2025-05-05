@@ -1,0 +1,36 @@
+.PlanCardComponent {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #e3e9ef;
+  border-radius: 0.6rem;
+  margin: .6rem 0;
+}
+
+.PlanCardIcon {
+  font-size: 2rem;
+  color: var(--ColorIcon);
+}
+
+.PlanCardTitle {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.PlanCardDescription {
+  font-size: 1rem;
+  color: #2b2b2b;
+}
+
+.BlueCard {
+  --ColorIcon: var(--FirstColor);
+}
+
+.YellowCard {
+  --ColorIcon: var(--FourthColor);
+}
+
+.GreenCard {
+  --ColorIcon: var(--ThirdColor);
+}
