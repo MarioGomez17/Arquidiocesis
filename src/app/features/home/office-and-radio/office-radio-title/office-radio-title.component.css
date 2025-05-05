@@ -1,0 +1,16 @@
+.OfficeRadioTitle {
+  color: var(--FirstColor);
+  font-size: 2rem;
+}
+
+.OfficeRadioDecorator {
+  width: 10%;
+  height: 0.3rem;
+  background-color: var(--FourthColor);
+  margin: 1.5rem 0;
+}
+
+.OfficeRadioDescription {
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+}

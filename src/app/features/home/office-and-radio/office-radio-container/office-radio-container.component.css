@@ -1,0 +1,7 @@
+.OfficeRadioContainerComponent {
+  padding: 3rem;
+  background-color: #e3e9ef;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
