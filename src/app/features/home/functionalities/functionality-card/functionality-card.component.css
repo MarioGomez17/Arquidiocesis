@@ -1,0 +1,73 @@
+.FuntionalityCardComponent {
+  width: 100%;
+  height: 100%;
+  background-color: #efefef;
+  padding: 2.5rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  border-radius: 0.6rem;
+}
+
+.FuntionalityCardComponent:hover {
+  box-shadow: 4px 4px 13px 0px rgba(0, 0, 0, 0.5);
+}
+
+.ClassIcon {
+  padding: 1rem;
+  font-size: 1.5rem;
+  text-align: center;
+  background-color: var(--SmoothColor);
+  color: var(--StrongColor);
+  border-radius: 50%;
+}
+
+.FuntionalityCardTitle {
+  font-size: 1.8rem;
+  margin: 2rem 0;
+}
+
+.FuntionalityCardDescription {
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+}
+
+.FuntionalityCardLink {
+  width: 100%;
+  padding: 1rem 2rem;
+  box-sizing: border-box;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  border-radius: 0.6rem;
+  color: var(--StrongColor);
+}
+
+.FuntionalityCardLink:hover {
+  background-color: var(--SmoothColor);
+  color: black;
+}
+
+.BlueCard {
+  --StrongColor: var(--FirstColor);
+  --SmoothColor: rgb(30, 58, 138, 0.1);
+}
+
+.YellowCard {
+  --StrongColor: var(--FourthColor);
+  --SmoothColor: rgb(212, 175, 55, 0.1);
+}
+
+.GreenCard {
+  --StrongColor: var(--ThirdColor);
+  --SmoothColor: rgb(107, 142, 35, 0.1);
+}
+
+.CyanCard {
+  --StrongColor: var(--SecondColor);
+  --SmoothColor: rgb(104, 151, 202, 0.1);
+}
