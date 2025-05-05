@@ -1,0 +1,54 @@
+.EpiscopologioContainerComponent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
+}
+
+.EpiscopologioContainerInfo {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.EpiscopologioContainerTitle {
+  font-size: 2rem;
+  color: var(--FirstColor);
+}
+
+.EpiscopologioContainerDescription {
+  font-size: 1.1rem;
+  color: #2b2b2b;
+  margin: 1.5rem 0;
+}
+
+.EpiscopologioContainerButton {
+  width: fit-content;
+  border-radius: 0.6rem;
+  border: none;
+  padding: 0.7rem;
+  background-color: var(--FirstColor);
+  color: #ffffff;
+  font-size: 1rem;
+  margin-top: 2rem;
+}
+
+.EpiscopologioContainerImage {
+  display: flex;
+  width: 50%;
+}
+
+.EpiscopologioContainerFigure {
+  width: 100%;
+  height: auto;
+}
+
+.EpiscopologioImage {
+  width: 100%;
+  height: auto;
+  border-radius: 0.6rem;
+}
+
+.EpiscopologioContainerButton:focus-visible {
+  outline: none;
+}

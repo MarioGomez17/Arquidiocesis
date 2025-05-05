@@ -1,0 +1,26 @@
+.EpiscopologioCardComponent {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.EpiscopologioCardIcon {
+  font-size: 2rem;
+  width: 2rem;
+  text-align: center;
+  padding: 1.5rem;
+  color: var(--FirstColor);
+  background-color: rgb(30, 58, 138, 0.1);
+  border-radius: 50%;
+}
+
+.EpiscopologioCardTitle {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.EpiscopologioCardYears {
+  font-size: 1.2rem;
+  color: #2b2b2b;
+}
