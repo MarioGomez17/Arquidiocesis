@@ -1,3 +1,71 @@
-.HomeContent {
-  height: 1500px;
+.HomeTitleSection {
+  background-image: linear-gradient(
+    to bottom, rgba(30, 58, 138, 0.3),
+    rgba(30, 58, 138, 0.7)
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+}
+
+.HomeTitleSectionFigure {
+  width: 80%;
+  opacity: 0.3;
+}
+
+.HomeTitleSectionImage {
+  width: 100%;
+  margin-bottom: 5rem;
+  mask-image: radial-gradient(black 10%, transparent);
+}
+
+.HomeTitleMainTitle {
+  font-size: 5rem;
+  text-align: center;
+}
+
+.HomeTitleDescription {
+  text-align: center;
+  width: 40%;
+  font-size: 2rem;
+  margin: 2rem 0;
+  color: #ffffff;
+}
+
+.HomeTitleButtons {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin: 1rem;
+}
+
+.HomeTitleSectionButton {
+  font-size: 1.2rem;
+  padding: 0.7rem 1.5rem;
+  border-radius: 0.6rem;
+  border: none;
+  color: var(--ButtonFontColor);
+  background-color: var(--ButtonColor);
+  cursor: pointer;
+  transition: 0.3s linear;
+}
+
+.LightButton {
+  --ButtonColor: #ffffff;
+  --ButtonFontColor: var(--FirstColor);
+}
+
+.DarkButton {
+  --ButtonColor: var(--FirstColor);
+  --ButtonFontColor: #ffffff;
+}
+
+.HomeTitleSectionButton:hover {
+  background-color: var(--ButtonFontColor);
+  color: var(--ButtonColor);
+}
+
+.HomeTitleSectionButton:focus-visible {
+  outline: none;
 }
