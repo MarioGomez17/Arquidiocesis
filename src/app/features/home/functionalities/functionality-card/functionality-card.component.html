@@ -1,0 +1,13 @@
+<article [ngClass]="ClassColorCard" class="FuntionalityCardComponent">
+    <i [ngClass]="FuntionalityClassIcon" class="ClassIcon"></i>
+    <h3 class="FuntionalityCardTitle">
+        {{FuntionalityTitle}}
+    </h3>
+    <p class="FuntionalityCardDescription">
+        {{FuntionalityDescription}}
+    </p>
+    <a [routerLink]="[`/${FuntionalityLinkTo}`]" class="FuntionalityCardLink">
+        {{FuntionalityLinkText}}
+        <i class="fa-solid fa-chevron-right FuntionalityCardLinkIcon"></i>
+    </a>
+</article>

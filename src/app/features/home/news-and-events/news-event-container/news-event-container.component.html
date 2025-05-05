@@ -1,0 +1,30 @@
+<section class="NewsEventContainerComponent">
+    <app-section-title [Title]="`Noticias y Eventos`"
+        [Description]="`Mantente informado sobre las actividades y novedades de nuestra comunidad.`" />
+    <section class="NewsCardsContainer">
+        <app-news-event-card [News_TItile]="`Título de la noticia o evento 1`"
+            [News_Description]="`Breve descripción de la noticia o evento. Información relevante para la comunidad que destaca los aspectos más importantes.`"
+            [News_Date]="`02 de Mayo, 2025`" />
+        <app-news-event-card [News_TItile]="`Título de la noticia o evento 2`"
+            [News_Description]="`Breve descripción de la noticia o evento. Información relevante para la comunidad que destaca los aspectos más importantes.`"
+            [News_Date]="`02 de Mayo, 2025`" />
+        <app-news-event-card [News_TItile]="`Título de la noticia o evento 3`"
+            [News_Description]="`Breve descripción de la noticia o evento. Información relevante para la comunidad que destaca los aspectos más importantes.`"
+            [News_Date]="`02 de Mayo, 2025`" />
+    </section>
+    <section class="PublicationsContainer">
+        <h4 class="PublicationsTitle">
+            Armonías - Gaceta
+        </h4>
+        <p class="PublicationsDescription">
+            Publicaciones periódicas con noticias y artículos de interés para nuestra comunidad.
+        </p>
+        <section class="PublicationsCardContainer">
+            <app-publication-card [Publication_Title]="`Edicición 1 - 2025`" />
+            <app-publication-card [Publication_Title]="`Edicición 2 - 2025`" />
+            <app-publication-card [Publication_Title]="`Edicición 3 - 2025`" />
+            <app-publication-card [Publication_Title]="`Edicición 4 - 2025`" />
+        </section>
+    </section>
+    <button class="NewsEventButton">Ver todas las noticias</button>
+</section>

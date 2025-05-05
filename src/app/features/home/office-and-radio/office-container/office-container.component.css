@@ -1,0 +1,41 @@
+.OfficeContent {
+  display: flex;
+  gap: 2rem;
+}
+
+.OfficeInformationContainer {
+  width: 50%;
+}
+
+.OfficeImageContainer {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.OfficeFigure {
+  height: 100%;
+  width: auto;
+}
+
+.OfficeImage {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.6rem;
+}
+
+.OfficeButton {
+  padding: 0.6rem 2rem;
+  border: none;
+  border-radius: 0.6rem;
+  color: #ffffff;
+  background-color: var(--FirstColor);
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.OfficeButton:focus-visible {
+  outline: none;
+}

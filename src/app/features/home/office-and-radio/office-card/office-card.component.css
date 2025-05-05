@@ -1,0 +1,37 @@
+.OfficeCardComponent {
+  background-color: #ffffff;
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 0.6rem;
+  transition: 0.3s linear;
+}
+
+.OfficeCardTitle {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--CardColor);
+}
+
+.OfficeCardDescription {
+  color: #2b2b2b;
+  font-size: 1.2rem;
+}
+
+.BlueCard {
+  --CardColor: var(--FirstColor);
+}
+
+.YellowCard {
+  --CardColor: var(--FourthColor);
+}
+
+.GreenCard {
+  --CardColor: var(--ThirdColor);
+}
+
+.OfficeCardComponent:hover {
+  box-shadow: 4px 4px 13px 0px rgba(0, 0, 0, 0.5);
+}

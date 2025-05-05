@@ -1,0 +1,14 @@
+<article class="ContactInfoComponent">
+    <i [ngClass]="ContactInfo_Icon" class="ContactInfoIcon"></i>
+    <div class="ContactInfoContent">
+        <h4 class="ContactInfoTitle">
+            {{ContactInfo_Title}}
+        </h4>
+        <span class="ContactInfDescription">
+            {{ContactInfo_Description}}
+        </span>
+        <a [href]="ContactInfo_Link" *ngIf="ContactInfo_Link !=''" target="_blank" class="ContactInfoLink">
+            {{ContactInfo_LinkText}}
+        </a>
+    </div>
+</article>

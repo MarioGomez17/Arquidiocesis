@@ -1,0 +1,47 @@
+.PublicationCardComponent {
+  width: 100%;
+  padding: 1.5rem;
+  box-sizing: border-box;
+  border-radius: 0.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  transition: 0.3s linear;
+}
+
+.PublicationCardTitle {
+  font-size: 1.2rem;
+}
+
+.PublicationCardImageFigure {
+  width: 100%;
+}
+
+.PublicationCardImage {
+  width: 100%;
+  height: auto;
+  border-radius: 0.6rem;
+}
+
+.PublicationCardButton {
+  width: 100%;
+  padding: 0.5rem 2rem;
+  font-size: 1.2rem;
+  box-sizing: border-box;
+  border: none;
+  color: var(--FirstColor);
+  background-color: #ffffff;
+  cursor: pointer;
+  border-radius: 0.6rem;
+  box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.5);
+}
+
+.PublicationCardButton:focus-visible {
+  outline: none;
+}
+
+.PublicationCardComponent:hover {
+  box-shadow: 4px 4px 13px 0px rgba(0, 0, 0, 0.5);
+}

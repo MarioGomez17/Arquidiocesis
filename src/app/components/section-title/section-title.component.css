@@ -1,0 +1,32 @@
+:host {
+  width: 100%;
+}
+
+.SectionTitleComponent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.SecctionTitle {
+  color: var(--FirstColor);
+  font-size: 2rem;
+}
+
+.SecctionDescription {
+  color: #2b2b2b;
+  margin: 1rem;
+}
+
+.SecctionDescription:empty {
+  margin: 0;
+}
+
+.SecctionTitleDivDecorator {
+  width: 10%;
+  height: 0.3rem;
+  background-color: var(--FourthColor);
+  margin-bottom: 2.5rem;
+}

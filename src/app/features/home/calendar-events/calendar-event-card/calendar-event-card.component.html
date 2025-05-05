@@ -1,0 +1,24 @@
+<article class="CalendarEventCardComponent" [ngClass]="CalendarEventCard_Color">
+    <div class="CalendarEventCardDate">
+        <span class="CalendarEventCardDateMonth">{{CalendarEventCard_Date | date:'MMM':'':'es' | titlecase}}</span>
+        <span class="CalendarEventCardDateDay">{{CalendarEventCard_Date | date:'dd':'':'es' | titlecase}}</span>
+    </div>
+    <h3 class="CalendarEventCardTitle">
+        {{CalendarEventCard_Title}}
+    </h3>
+    <p class="CalendarEventCardDescription">
+        {{CalendarEventCard_Description}}
+    </p>
+    <!--  -->
+    <span class="CalendarEventCardSchedule">
+        <i class="fa-solid fa-clock CalendarEventCardScheduleIcon"></i>
+        {{CalendarEventCard_Hour}}
+    </span>
+    <span class="CalendarEventCardSchedule">
+        <i class="fa-solid fa-location-dot CalendarEventCardScheduleIcon"></i>
+        {{CalendarEventCard_Place}}
+    </span>
+    <button type="button" class="CalendarEventCardButton">
+        Ver detalles
+    </button>
+</article>

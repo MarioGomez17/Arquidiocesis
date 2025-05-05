@@ -1,0 +1,106 @@
+.RadioCardComponent {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 0.6rem;
+}
+
+.RadioCardTitle {
+  font-size: 1.5rem;
+  color: var(--FirstColor);
+}
+
+.RadioCardInformationContainer {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.RadioCardIconContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.RadioCardIcon {
+  font-size: 2rem;
+  padding: 1.5rem;
+  background-color: var(--FirstColor);
+  color: #ffffff;
+  border-radius: 50%;
+}
+
+.RadioCardLiveIcon {
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background-color: rgba(255, 0, 0, 1);
+  top: 0;
+  right: 0;
+  animation: PulseAnimation 2s linear infinite;
+}
+
+.RadioCardInformation {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.RadioName {
+  font-size: 1.5rem;
+  color: #000000;
+  font-weight: 700;
+}
+
+.RadioSchedule {
+  color: #2b2b2b;
+}
+
+.RadioCardDurartionContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.RadioCardDurartion {
+  width: 6rem;
+  height: 0.3rem;
+  background-color: #2b2b2b;
+  position: relative;
+}
+
+.RadioCardDurartion::after {
+  content: "";
+  position: absolute;
+  background-color: var(--SecondColor);
+  height: 100%;
+  width: 75%;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.RadioCardButton {
+  background-color: var(--FirstColor);
+  border: none;
+  padding: 0.5rem;
+  color: #ffffff;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.RadioCardButtonIcon {
+  margin-right: 1rem;
+}
+
+@keyframes PulseAnimation {
+  50% {
+    background-color: rgba(255, 0, 0, 0.5);
+  }
+}

@@ -1,0 +1,11 @@
+.FunctionalityCardsComponent {
+  background-color: #e3e9ef;
+  padding: 3rem;
+}
+
+.FunctionalityCardsContainer {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}

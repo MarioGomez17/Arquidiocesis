@@ -1,0 +1,98 @@
+:host {
+  display: flex;
+}
+
+.CalendarEventCardComponent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  border-radius: 0.6rem;
+  height: auto;
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.CalendarEventCardDate {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  align-items: center;
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  border-radius: 0.6rem;
+  background-color: var(--BackgroundColor);
+  color: var(--FontColor);
+}
+
+.CalendarEventCardDateMonth {
+  text-transform: uppercase;
+}
+
+.CalendarEventCardDateDay {
+  font-weight: 800;
+  font-size: 2rem;
+}
+
+.CalendarEventCardTitle {
+  font-size: 2rem;
+}
+
+.CalendarEventCardDescription {
+  color: #2b2b2b;
+  font-size: 1.2rem;
+}
+
+.CalendarEventCardSchedule {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1rem;
+  color: #2b2b2b;
+}
+
+.CalendarEventCardButton {
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.5);
+  transition: 0.3s linear;
+  font-size: 1rem;
+  border-radius: 0.6rem;
+  padding: 0.6rem 2rem;
+  border: none;
+  background-color: transparent;
+  color: var(--BackgroundColor);
+}
+
+.CalendarEventCardButton:hover {
+  box-shadow: 0px 0px 1px 1px var(--BackgroundColor);
+  background-color: var(--BackgroundSmoothColor);
+  color: #000000;
+}
+
+.CalendarEventCardButton:focus-visible {
+  outline: none;
+}
+
+.BlueCard {
+  --BackgroundSmoothColor: rgba(30, 58, 138, 0.1);
+  --BackgroundColor: var(--FirstColor);
+  --FontColor: #ffffff;
+}
+
+.CyanCard {
+  --BackgroundSmoothColor: rgba(0, 200, 200, 0.1);
+  --BackgroundColor: var(--SecondColor);
+  --FontColor: #000000;
+}
+
+.GreenCard {
+  --BackgroundSmoothColor: rgba(107, 142, 35, 0.1);
+  --BackgroundColor: var(--ThirdColor);
+  --FontColor: #ffffff;
+}
+
+.YellowCard {
+  --BackgroundSmoothColor: rgba(212, 175, 55, 0.1);
+  --BackgroundColor: var(--FourthColor);
+  --FontColor: #000000;
+}

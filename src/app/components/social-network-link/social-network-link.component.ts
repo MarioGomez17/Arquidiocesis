@@ -11,4 +11,5 @@ export class SocialNetworkLinkComponent {
   @Input() SocialNetworkIcon: string = '';
   @Input() SocialNetworkLink: string = '';
   @Input() SocialNetworkAriaLabel: string = '';
+  @Input() SocialNetworkColor: string = '';
 }

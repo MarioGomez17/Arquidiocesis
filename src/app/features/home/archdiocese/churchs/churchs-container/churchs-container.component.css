@@ -1,0 +1,35 @@
+.ChurchContainerComponent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.ChurchContainerTitile {
+  font-size: 2rem;
+  color: var(--FirstColor);
+  width: 100%;
+  text-align: left;
+}
+
+.ChurchsCardsContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4rem;
+  width: 100%;
+}
+
+.ChurchContainerButton {
+  width: fit-content;
+  border-radius: 0.6rem;
+  border: none;
+  padding: 0.7rem;
+  background-color: var(--FirstColor);
+  color: #ffffff;
+  font-size: 1rem;
+  margin-top: 2rem;
+}
+
+.ChurchContainerButton:focus-visible {
+  outline: none;
+}
