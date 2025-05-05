@@ -1,0 +1,19 @@
+<section class="ArchdioceseContainerComponent">
+    <app-section-title [Title]="`Arquidiócesis`"
+        [Description]="`Conoce nuestra historia, estructura y misión evangelizadora en la región.`" />
+    <nav class="ArchdioceseTabs">
+        <button *ngFor="let tab of tabs" (click)="activeTab = tab.id" [class.ActiveTab]="activeTab === tab.id"
+            class="ArchdioceseTab">
+            {{ tab.label }}
+        </button>
+    </nav>
+    <div class="ArchdioceseTabContent">
+        <ng-container [ngSwitch]="activeTab">
+            <app-episcopologio-container *ngSwitchCase="'1'" />
+            <app-badge-container *ngSwitchCase="'2'" />
+            <app-documents-container *ngSwitchCase="'3'" />
+            <app-churchs-container *ngSwitchCase="'4'" />
+            <app-plan-container *ngSwitchCase="'5'" />
+        </ng-container>
+    </div>
+</section>
