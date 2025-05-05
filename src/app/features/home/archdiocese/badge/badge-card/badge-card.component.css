@@ -1,0 +1,41 @@
+.BadgeCardComponent {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin: 1rem 0;
+}
+
+.BadgeCardDecorator {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background-color: var(--CardColor);
+}
+
+.BadgeCardInformation {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.BadgeCardTitle {
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.BadgeCardDescription {
+  font-size: 1.2rem;
+  color: #2b2b2b;
+}
+
+.YellowCard {
+  --CardColor: var(--FourthColor);
+}
+
+.GreenCard {
+  --CardColor: var(--ThirdColor);
+}
+
+.CyanCard {
+  --CardColor: var(--SecondColor);
+}
