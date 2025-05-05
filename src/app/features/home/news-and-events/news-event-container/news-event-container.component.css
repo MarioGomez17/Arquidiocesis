@@ -1,0 +1,55 @@
+.NewsEventContainerComponent {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.NewsCardsContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+
+.PublicationsContainer {
+  width: 100%;
+  margin-top: 3rem;
+}
+
+.PublicationsTitle {
+  margin: 2rem;
+  color: var(--FirstColor);
+  text-align: center;
+  font-size: 1.7rem;
+}
+
+.PublicationsDescription {
+  font-size: 1.3rem;
+  color: #2b2b2b;
+  text-align: center;
+}
+
+.PublicationsCardContainer {
+  width: 100%;
+  margin: 2rem 0;
+  padding: 2rem 5rem;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+.NewsEventButton {
+  padding: 0.7rem 2rem;
+  font-size: 1rem;
+  background-color: var(--FirstColor);
+  color: #ffffff;
+  border: none;
+  border-radius: 0.6rem;
+  cursor: pointer;
+}
+
+.NewsEventButton:focus-visible {
+  outline: none;
+}
