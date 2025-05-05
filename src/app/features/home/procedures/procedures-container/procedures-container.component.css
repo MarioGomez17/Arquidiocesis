@@ -1,0 +1,13 @@
+.ProceduresContainerComponent {
+  display: flex;
+  flex-direction: column;
+  background-color: #e3e9ef;
+  padding: 3rem;
+}
+
+.ProceduresContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  padding: 2rem;
+}

@@ -1,0 +1,76 @@
+:host {
+  display: flex;
+}
+
+.ProcedureCardComponent {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 0.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  transition: 0.3s linear;
+}
+
+.ProcedureCardIcon {
+  padding: 1rem;
+  font-size: 1.5rem;
+  width: 1.5rem;
+  text-align: center;
+  background-color: var(--SmoothColor);
+  color: var(--StrongColor);
+  border-radius: 50%;
+}
+
+.ProcedureCardTitle {
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
+}
+
+.ProcedureCardDescription {
+  font-size: 1.2rem;
+  line-height: 2;
+}
+
+.ProcedureCardDuration {
+  margin: 0.8rem 0;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.ProcedureCardDurationIcon {
+  font-size: 1.5rem;
+}
+
+.BlueColor {
+  --StrongColor: var(--FirstColor);
+  --SmoothColor: rgb(30, 58, 138, 0.1);
+}
+
+.YellowColor {
+  --StrongColor: var(--FourthColor);
+  --SmoothColor: rgb(212, 175, 55, 0.1);
+}
+
+.GreenColor {
+  --StrongColor: var(--ThirdColor);
+  --SmoothColor: rgb(107, 142, 35, 0.1);
+}
+
+.CyanColor {
+  --StrongColor: var(--SecondColor);
+  --SmoothColor: rgb(104, 151, 202, 0.1);
+}
+
+.WhiteColor {
+  --StrongColor: #000000;
+  --SmoothColor: #e3e9ef;;
+}
+
+.ProcedureCardComponent:hover {
+  box-shadow: 4px 4px 13px 0px rgba(0, 0, 0, 0.5);
+}

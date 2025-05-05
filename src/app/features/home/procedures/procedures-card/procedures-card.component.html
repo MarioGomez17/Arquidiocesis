@@ -1,0 +1,14 @@
+<article [ngClass]="ProcedureCard_Color" class="ProcedureCardComponent">
+    <i [ngClass]="ProcedureCard_Icon" class="ProcedureCardIcon"></i>
+    <h3 class="ProcedureCardTitle">
+        {{ProcedureCard_Title}}
+    </h3>
+    <p class="ProcedureCardDescription">
+        {{ProcedureCard_Description}}
+    </p>
+    <span *ngIf="ProcedureCard_Duration != ''" class="ProcedureCardDuration">
+        <i class="fa-regular fa-clock ProcedureCardDurationIcon"></i>
+        {{ProcedureCard_Duration}}
+    </span>
+    <app-procedures-button [Button_Text]="ProcedureCard_ButtonText" [Button_Color]="ProcedureCard_Color" />
+</article>
