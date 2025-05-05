@@ -1,0 +1,15 @@
+.ContactInfoContainerComponent {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 3rem;
+  box-sizing: border-box;
+  border-radius: 0.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.ContactInfoContainerTitle {
+  font-size: 2rem;
+  color: var(--FirstColor);
+}

@@ -1,0 +1,40 @@
+.ContactInfoComponent {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  margin: 1rem 0;
+}
+
+.ContactInfoContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-left: 1rem;
+}
+
+.ContactInfoIcon{
+    color: var(--FirstColor);
+    font-size: 1.3rem;
+    width: 1.3rem;
+    text-align: center;
+    padding: .8rem;
+    border-radius: 50%;
+    background-color: rgba(30, 58, 138, .3);
+}
+
+.ContactInfoTitle {
+  font-size: 1.5rem;
+}
+
+.ContactInfDescription {
+  font-size: 1.2rem;
+  color: #2b2b2b;
+}
+
+.ContactInfoLink {
+  color: var(--FirstColor);
+  text-decoration: none;
+  font-size: 1.2rem;
+}
