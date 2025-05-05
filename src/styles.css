@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Cal+Sans&family=Geologica:wght@100..900&display=swap");
+@import "../node_modules/angular-calendar/css/angular-calendar.css";
 
 :root {
   --FirstColor: rgb(30, 58, 138);
-  --SecondColor: rgb(104, 151, 202);
+  --SecondColor: rgb(0, 200, 200);
   --ThirdColor: rgb(107, 142, 35);
   --FourthColor: rgb(212, 175, 55);
   --MainFont: "Geologica", sans-serif;
