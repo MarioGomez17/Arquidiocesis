@@ -22,7 +22,7 @@ import { PlanContainerComponent } from '../plan/plan-container/plan-container.co
   styleUrl: './archdiocese-container.component.css',
 })
 export class ArchdioceseContainerComponent {
-  activeTab = '5';
+  activeTab = '1';
   tabs = [
     { id: '1', label: 'Episcopologio' },
     { id: '2', label: 'Escudo' },
