@@ -10,14 +10,14 @@
 }
 
 .HomeTitleSectionFigure {
-  width: 80%;
-  opacity: 0.3;
+  width: 100%;
+  opacity: 0.6;
 }
 
 .HomeTitleSectionImage {
   width: 100%;
   margin-bottom: 5rem;
-  mask-image: radial-gradient(black 10%, transparent);
+  mask-image: radial-gradient(black 80%, transparent);
 }
 
 .HomeTitleMainTitle {

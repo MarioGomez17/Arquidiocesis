@@ -28,6 +28,6 @@ export class ArchdioceseContainerComponent {
     { id: '2', label: 'Escudo' },
     { id: '3', label: 'Documentos' },
     { id: '4', label: 'Parroquias' },
-    { id: '5', label: 'Plan 2025 - 2030' },
+    { id: '5', label: 'Plan 2024 - 2030' },
   ];
 }
